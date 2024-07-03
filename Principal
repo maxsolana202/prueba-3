@@ -1,0 +1,23 @@
+from Funciones import registrar_puntaje , lista_puntaje , imprimir_tipo 
+
+while True:
+    print('1- Registrar puntajes torneo')
+    print('2- Listar los todos puntajes')
+    print('3- Imprimir por tipo')
+    print('4- Salir del programa ')
+
+    opcion= int(input('ingrese su opcion: '))
+
+    if opcion == 1:
+        registrar_puntaje
+    elif opcion == 2:
+        lista_puntaje
+    elif opcion == 3:
+        imprimir_tipo
+    elif opcion == 4:
+        print('saliendo del programa') 
+        break
+    else:
+        print('opcion no valida')   
+
+#no se 
