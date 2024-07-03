@@ -1,0 +1,19 @@
+def registrar_puntaje (jugadores):
+    nombre = input('ingrese su nombre')
+    juegos = input('ingrese juego')
+    puntaje = int(input('ingrese su puntaje'))
+    tipos = input('ingrese tipo')
+
+    jugadores = [nombre] = {'puntajes' : puntaje}, {'juego': juegos} ,{'tipo' : tipos}
+    print('puntaje registrado')
+
+def lista_puntaje(jugadores):
+    print('nombre/puntaje/juego')
+    for nombre ,puntaje,juegos,tipos in jugadores ():
+        print(f'{nombre}/{puntaje}/{juegos}/{tipos}')
+
+tipo = ['principiante','avanzado','experto']
+def imprimir_tipo(jugadores):
+    print('Seleccione alguno de los 3 tipos')
+    for tipos in jugadores ():
+        print(f'Su tipo es {tipo}')
